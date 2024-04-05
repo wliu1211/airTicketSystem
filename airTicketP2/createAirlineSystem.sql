@@ -180,17 +180,3 @@ create table review (
 foreign key (airline_name) references airline(airline_name),
 check (rating >= 0 and rating <= 10)
 );
-
-
-drop table maintenance;
-drop table purchase;
-drop table review;
-drop table ticket;
-drop table flight;
-drop table airplane;
-drop table airport;
-drop table user_account;
-drop table airline_staff;
-drop table airline;
-drop table customer;
-
